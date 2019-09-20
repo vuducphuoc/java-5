@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="AIR_SPACE@MLEODY">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="AIR_SPACE">
+      <ObjectId>24</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="DEMO">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="JAVA4_LAB07">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="5" parent="1" name="JAVA4_LAB08">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="6" parent="1" name="JAVA4_THIHETMON">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="7" parent="1" name="JAVA5_LAB06">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Library">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="9" parent="1" name="QUANLYTAISAN_VERSION2">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="10" parent="1" name="QUANLYTAISAN_VERSION2_NULL">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="11" parent="1" name="Quan ly thu vien">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="QuanLyDienThoai">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="13" parent="1" name="QuanLyTaiSan">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="14" parent="1" name="TOEIC_ONLINE">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="15" parent="1" name="TestHM">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="16" parent="1" name="dbPolypro_APT">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="17" parent="1" name="dbPolypro_APT2">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="18" parent="1" name="dbPolypro_APT_test">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="19" parent="1" name="dbPolypro_APT_test2">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="20" parent="1" name="java4">
+      <ObjectId>27</ObjectId>
+    </database>
+    <database id="21" parent="1" name="java4_Lab02">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="22" parent="1" name="java4_lab03">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="23" parent="1" name="java4_lab05">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="24" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="minishop">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="26" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="29" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="30" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="31" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="32" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="33" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="34" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="35" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="36" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="37" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="38" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="39" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-09-19.20:12:20.193</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="40" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="41" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="42" parent="39" name="ACCOUNT">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.390</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-27.19:25:04.710</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="39" name="BILL">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-19.20:12:17.550</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="39" name="CATEGORY">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.430</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:20:53.767</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="39" name="COLOR">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.437</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:10:48.540</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="39" name="DETAIL_BILL">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.443</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:17:18.817</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="39" name="DETAIL_PRODUCT">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-30.20:48:18.810</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="39" name="PRODUCT">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:42:04.787</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:23:21.813</ModifiedTimestamp>
+    </table>
+    <table id="49" parent="39" name="SIZE">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:23:21.800</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="39" name="sysdiagrams">
+      <ObjectId>1893581784</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:44:00.180</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.180</ModifiedTimestamp>
+    </table>
+    <routine id="51" parent="39" name="fn_diagramobjects">
+      <ObjectId>2037582297</ObjectId>
+      <SourceTextLength>1647</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.310</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.310</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="52" parent="39" name="sp_alterdiagram">
+      <ObjectId>2005582183</ObjectId>
+      <SourceTextLength>1501</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.277</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.277</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="53" parent="39" name="sp_creatediagram">
+      <ObjectId>1973582069</ObjectId>
+      <SourceTextLength>1223</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.253</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.253</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="54" parent="39" name="sp_dropdiagram">
+      <ObjectId>2021582240</ObjectId>
+      <SourceTextLength>896</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.307</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.307</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="55" parent="39" name="sp_helpdiagramdefinition">
+      <ObjectId>1957582012</ObjectId>
+      <SourceTextLength>921</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.250</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.250</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="56" parent="39" name="sp_helpdiagrams">
+      <ObjectId>1941581955</ObjectId>
+      <SourceTextLength>658</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.217</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.217</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="57" parent="39" name="sp_renamediagram">
+      <ObjectId>1989582126</ObjectId>
+      <SourceTextLength>1721</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.260</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.260</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="58" parent="39" name="sp_upgraddiagrams">
+      <ObjectId>1877581727</ObjectId>
+      <SourceTextLength>1463</SourceTextLength>
+      <CreatedTimestamp>2019-07-01.20:44:00.163</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.163</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="59" parent="42" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="42" name="NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="42" name="EMAIL">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="42" name="PASSWORD">
+      <Position>4</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="42" name="PHONE">
+      <Position>5</Position>
+      <DataType>varchar(12 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="42" name="ROLE">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__USERS__ROLE__37A5467C</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="65" parent="42" name="PK__USERS__3214EC27EF5C340A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="42" name="PK__USERS__3214EC27EF5C340A">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.423</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.423</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__USERS__3214EC27EF5C340A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="67" parent="42" name="DF__USERS__ROLE__37A5467C">
+      <ObjectId>933578364</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-01.20:37:43.427</ModifiedTimestamp>
+      <ColNames>ROLE</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="68" parent="43" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="43" name="ADDRESS">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="70" parent="43" name="STATUS">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__BILLS__STATUS__4AB81AF0</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="71" parent="43" name="DATE_CREATED">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__BILLS__DATE_CREA__4BAC3F29</DefaultConstraintName>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="43" name="ID_ACCOUNT">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="73" parent="43" name="NAME">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="43" name="PHONE">
+      <Position>7</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="75" parent="43" name="PK__BILLS__3214EC271DA752FD">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="43" name="PK__BILLS__3214EC271DA752FD">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.443</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.443</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__BILLS__3214EC271DA752FD</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="77" parent="43" name="BILL_ACCOUNT_ID_fk">
+      <ObjectId>658101385</ObjectId>
+      <CreatedTimestamp>2019-08-27.19:25:04.540</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-27.19:25:04.540</ModifiedTimestamp>
+      <ColNames>ID_ACCOUNT</ColNames>
+      <RefTableId>901578250</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ACCOUNT</RefTableName>
+      <RefKeyName>PK__USERS__3214EC27EF5C340A</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <default id="78" parent="43" name="DF__BILLS__STATUS__4AB81AF0">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-01.20:37:43.443</ModifiedTimestamp>
+      <ColNames>STATUS</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="79" parent="43" name="DF__BILLS__DATE_CREA__4BAC3F29">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-01.20:37:43.443</ModifiedTimestamp>
+      <ColNames>DATE_CREATED</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+    </default>
+    <column id="80" parent="44" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="44" name="NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="82" parent="44" name="PK__CATEGORY__3214EC2740DDDEA0">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="44" name="PK__CATEGORY__3214EC2740DDDEA0">
+      <ObjectId>997578592</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.433</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.433</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__CATEGORY__3214EC2740DDDEA0</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="45" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="45" name="NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="86" parent="45" name="PK__COLORS__3214EC271DD1BAB7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="45" name="PK__COLORS__3214EC271DD1BAB7">
+      <ObjectId>1109578991</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.440</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__COLORS__3214EC271DD1BAB7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="46" name="ID_BILL">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="46" name="ID_DETAIL_PRODUCT">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="46" name="NUMBER">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="46" name="PRICE">
+      <Position>4</Position>
+      <DataType>money|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="46" name="ID">
+      <Position>5</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="93" parent="46" name="DETAIL_BILL_pk">
+      <Position>2</Position>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="46" name="DETAIL_BILL_pk">
+      <ObjectId>338100245</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:13:31.253</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:13:31.253</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>DETAIL_BILL_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="95" parent="46" name="DETAIL_BILL_BILL_ID_fk">
+      <ObjectId>354100302</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:14:24.053</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:14:24.053</ModifiedTimestamp>
+      <ColNames>ID_BILL</ColNames>
+      <RefTableId>1221579390</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BILL</RefTableName>
+      <RefKeyName>PK__BILLS__3214EC271DA752FD</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="96" parent="46" name="DETAIL_BILL_DETAIL_PRODUCT_ID_fk">
+      <ObjectId>402100473</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:17:18.817</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:17:18.817</ModifiedTimestamp>
+      <ColNames>ID_DETAIL_PRODUCT</ColNames>
+      <RefTableId>1157579162</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>DETAIL_PRODUCT</RefTableName>
+      <RefKeyName>PK__DETAIL_P__3214EC27A4EE935C</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="97" parent="47" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="47" name="NUMBER">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="47" name="DATE_ADDED">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="47" name="ID_PRODUCT">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="47" name="ID_COLOR">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="47" name="ID_SIZE">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="47" name="IMAGE">
+      <Position>7</Position>
+      <DataType>ntext|0s</DataType>
+    </column>
+    <index id="104" parent="47" name="PK__DETAIL_P__3214EC27A4EE935C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="47" name="PK__DETAIL_P__3214EC27A4EE935C">
+      <ObjectId>1173579219</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.440</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__DETAIL_P__3214EC27A4EE935C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="106" parent="47" name="FK__DETAIL_PR__PRODU__46E78A0C">
+      <ObjectId>450100644</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:23:21.813</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:23:21.813</ModifiedTimestamp>
+      <ColNames>ID_PRODUCT</ColNames>
+      <RefTableId>1525580473</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>PK__PRODUCTS__3214EC271E0B2552</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="47" name="FK__DETAIL_PR__COLOR__47DBAE45">
+      <ObjectId>1205579333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.440</ModifiedTimestamp>
+      <ColNames>ID_COLOR</ColNames>
+      <RefTableId>1093578934</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>COLOR</RefTableName>
+      <RefKeyName>PK__COLORS__3214EC271DD1BAB7</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="108" parent="47" name="DETAIL_PRODUCT_SIZES_ID_fk">
+      <ObjectId>434100587</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:23:21.800</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:23:21.800</ModifiedTimestamp>
+      <ColNames>ID_SIZE</ColNames>
+      <RefTableId>1125579048</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>SIZE</RefTableName>
+      <RefKeyName>PK__SIZES__3214EC27F6C3AEF7</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="109" parent="48" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="48" name="NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="48" name="PRICE">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="48" name="DESCRIBE">
+      <Position>4</Position>
+      <DataType>ntext|0s</DataType>
+    </column>
+    <column id="113" parent="48" name="ID_CATEGORY">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="48" name="IMAGE">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="115" parent="48" name="PK__PRODUCTS__3214EC271E0B2552">
+      <Position>1</Position>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="48" name="PK__PRODUCTS__3214EC271E0B2552">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:42:05.287</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:42:05.287</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__PRODUCTS__3214EC271E0B2552</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="117" parent="48" name="PRODUCT_CATEGORY_ID_fk">
+      <ObjectId>418100530</ObjectId>
+      <CreatedTimestamp>2019-08-26.22:20:53.763</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.22:20:53.763</ModifiedTimestamp>
+      <ColNames>ID_CATEGORY</ColNames>
+      <RefTableId>981578535</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>PK__CATEGORY__3214EC2740DDDEA0</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="118" parent="49" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="49" name="NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="120" parent="49" name="PK__SIZES__3214EC27F6C3AEF7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="49" name="PK__SIZES__3214EC27F6C3AEF7">
+      <ObjectId>1141579105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:37:43.440</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:37:43.440</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__SIZES__3214EC27F6C3AEF7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="50" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="50" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="50" name="diagram_id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="50" name="version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="126" parent="50" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </column>
+    <index id="127" parent="50" name="PK__sysdiagr__C2B05B61B3D54ED7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="128" parent="50" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="129" parent="50" name="PK__sysdiagr__C2B05B61B3D54ED7">
+      <ObjectId>1909581841</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-01.20:44:00.183</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.183</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B61B3D54ED7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="130" parent="50" name="UK_principal_name">
+      <ObjectId>1925581898</ObjectId>
+      <CreatedTimestamp>2019-07-01.20:44:00.190</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-01.20:44:00.190</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <argument id="131" parent="51">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="132" parent="52" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="133" parent="52" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="134" parent="52" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="135" parent="52" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="136" parent="53" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="137" parent="53" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="138" parent="53" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="139" parent="53" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="140" parent="54" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="141" parent="54" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="142" parent="55" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="143" parent="55" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="144" parent="56" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="145" parent="56" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="146" parent="57" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="147" parent="57" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="148" parent="57" name="@new_diagramname">
+      <Position>3</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
