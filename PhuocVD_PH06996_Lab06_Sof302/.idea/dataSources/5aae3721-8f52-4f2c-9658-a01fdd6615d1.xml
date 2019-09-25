@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="JAVA5_LAB06@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="AIR_SPACE">
+      <ObjectId>24</ObjectId>
+    </database>
+    <database id="3" parent="1" name="DEMO">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="JAVA4_LAB07">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="5" parent="1" name="JAVA4_LAB08">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="6" parent="1" name="JAVA4_THIHETMON">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="7" parent="1" name="JAVA5_LAB06">
+      <ObjectId>16</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="Library">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="9" parent="1" name="QUANLYTAISAN_VERSION2">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="10" parent="1" name="QUANLYTAISAN_VERSION2_NULL">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="11" parent="1" name="Quan ly thu vien">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="QuanLyDienThoai">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="13" parent="1" name="QuanLyTaiSan">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="14" parent="1" name="TOEIC_ONLINE">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="15" parent="1" name="TestHM">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="16" parent="1" name="dbPolypro_APT">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="17" parent="1" name="dbPolypro_APT2">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="18" parent="1" name="dbPolypro_APT_test">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="19" parent="1" name="dbPolypro_APT_test2">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="20" parent="1" name="java4">
+      <ObjectId>27</ObjectId>
+    </database>
+    <database id="21" parent="1" name="java4_Lab02">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="22" parent="1" name="java4_lab03">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="23" parent="1" name="java4_lab05">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="24" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="minishop">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="26" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="29" parent="7" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="30" parent="7" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="31" parent="7" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="32" parent="7" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="33" parent="7" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="34" parent="7" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="35" parent="7" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="36" parent="7" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="37" parent="7" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="38" parent="7" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="39" parent="7" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-09-11.18:27:18.910</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="40" parent="7" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="41" parent="7" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="42" parent="39" name="Departs">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2019-09-11.18:19:57.660</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.697</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="39" name="Records">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2019-09-11.18:19:57.697</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.697</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="39" name="Staffs">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2019-09-11.18:19:57.663</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.700</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="39" name="Users">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2019-09-11.18:19:57.637</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.637</ModifiedTimestamp>
+    </table>
+    <column id="46" parent="42" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="42" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="48" parent="42" name="PK__Departs__3213E83F4CDCFB8E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="42" name="PK__Departs__3213E83F4CDCFB8E">
+      <ObjectId>1029578706</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.663</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.663</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Departs__3213E83F4CDCFB8E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="43" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="43" name="type">
+      <Position>2</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="43" name="reason">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="53" parent="43" name="dateCreate">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__Records__dateCre__440B1D61</DefaultConstraintName>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="43" name="staffID">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="55" parent="43" name="PK__Records__3213E83F58FC7A06">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="43" name="PK__Records__3213E83F58FC7A06">
+      <ObjectId>1125579048</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.697</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.697</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Records__3213E83F58FC7A06</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="43" name="FK__Records__staffID__44FF419A">
+      <ObjectId>1157579162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.700</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.700</ModifiedTimestamp>
+      <ColNames>staffID</ColNames>
+      <RefTableId>1045578763</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Staffs</RefTableName>
+      <RefKeyName>PK__Staffs__3213E83F69ACE8F6</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <default id="58" parent="43" name="DF__Records__dateCre__440B1D61">
+      <ObjectId>1141579105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-09-11.18:19:57.697</ModifiedTimestamp>
+      <ColNames>dateCreate</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+    </default>
+    <column id="59" parent="44" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="44" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="44" name="gender">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__Staffs__gender__403A8C7D</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="44" name="birthday">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="44" name="photo">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="44" name="email">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="44" name="phone">
+      <Position>7</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="44" name="salary">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="44" name="notes">
+      <Position>9</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="68" parent="44" name="departID">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="69" parent="44" name="PK__Staffs__3213E83F69ACE8F6">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="44" name="PK__Staffs__3213E83F69ACE8F6">
+      <ObjectId>1061578820</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.667</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.667</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Staffs__3213E83F69ACE8F6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="71" parent="44" name="FK__Staffs__departID__412EB0B6">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.680</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.680</ModifiedTimestamp>
+      <ColNames>departID</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Departs</RefTableName>
+      <RefKeyName>PK__Departs__3213E83F4CDCFB8E</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <default id="72" parent="44" name="DF__Staffs__gender__403A8C7D">
+      <ObjectId>1077578877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-09-11.18:19:57.667</ModifiedTimestamp>
+      <ColNames>gender</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <column id="73" parent="45" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="45" name="username">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="45" name="password">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="45" name="fullname">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="77" parent="45" name="PK__Users__3213E83FE1AFC672">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="78" parent="45" name="UQ__Users__F3DBC5726D45CCF6">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="79" parent="45" name="PK__Users__3213E83FE1AFC672">
+      <ObjectId>981578535</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.647</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.647</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Users__3213E83FE1AFC672</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="80" parent="45" name="UQ__Users__F3DBC5726D45CCF6">
+      <ObjectId>997578592</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-09-11.18:19:57.653</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-11.18:19:57.653</ModifiedTimestamp>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>UQ__Users__F3DBC5726D45CCF6</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

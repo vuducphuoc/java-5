@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+	
+	<!-- KẾT NỐI KIỂU JDBC -->
+	<!-- <bean id="jdbcDatabase" class="com.laptrinhjavaweb.connect.JdbcDatabase">
+        <property name="dataSource" ref="dataSource"/>
+    </bean> -->
+
+	
+	<!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">-->
+		<!--<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>-->
+		<!--<property name="url" value="jdbc:jtds:sqlserver://localhost:1433/AIR_SPACE;instance=MSSQLSERVER" />-->
+		<!--<property name="username" value="sa" />-->
+		<!--<property name="password" value="123456" />-->
+	<!--</bean>-->
+	<!---->
+	<!--&lt;!&ndash; Kết Nối database bằng Hibernate &ndash;&gt;-->
+	<!--<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">-->
+		<!--<property name="dataSource" ref="dataSource" />-->
+		<!--&lt;!&ndash;<property name="packagesToScan" value="com.laptrinhjava.WEB.entity" />&ndash;&gt;-->
+		<!--<property name="hibernateProperties">-->
+			<!--&lt;!&ndash; Cách 1 &ndash;&gt;-->
+			<!--&lt;!&ndash; <value>-->
+				<!--hibernate.dialect=org.hibernate.dialect.SQLServer2017Dialect-->
+			<!--</value> &ndash;&gt;-->
+			<!---->
+			<!--&lt;!&ndash; Cách 2 - Tường minh &ndash;&gt;-->
+			<!--<props>-->
+				<!--&lt;!&ndash; Chỉ định dùng SQL hay MySQL... &ndash;&gt;-->
+				<!--<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>-->
+				<!--&lt;!&ndash; Hiển thị code SQL &ndash;&gt;-->
+				<!--<prop key="hibernate.show_sql">true</prop>-->
+			<!--</props>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+	<!--<bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">-->
+		<!--<property name="sessionFactory" ref="sessionFactory" />-->
+	<!--</bean>-->
+	<!---->
+	<!--<tx:annotation-driven transaction-manager="transactionManager" /> &lt;!&ndash; Hibernate &ndash;&gt;-->
+
+</beans>
