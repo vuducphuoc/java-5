@@ -33,6 +33,16 @@ public class Bills implements Serializable {
         this.user = user;
     }
 
+    public Bills(Integer id, String address, String phone, String notes, int status, int total, Users user) {
+        this.id = id;
+        this.address = address;
+        this.phone = phone;
+        this.notes = notes;
+        this.status = status;
+        this.total = total;
+        this.user = user;
+    }
+
     public int getId() {
         return id;
     }

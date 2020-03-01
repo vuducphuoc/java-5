@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+     <!--Base Admin -->
+    <definition name="base.admin" template="/WEB-INF/views/common/admin/classic.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/common/admin/_header.jsp" />
+        <put-attribute name="sidebar" value="/WEB-INF/views/common/admin/_sidebar.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/common/admin/_footer.jsp" />
+    </definition>
+
+    <!--Base Web-->
+    <definition name="base.web" template="/WEB-INF/views/common/web/classic.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/common/web/_header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/common/web/_menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/common/web/_footer.jsp" />
+    </definition>
+
+    <!--Base Product-->
+    <definition name="base.product" template="/WEB-INF/views/common/product/classic.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/common/web/_header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/common/web/_menu.jsp" />
+        <put-attribute name="sidebar" value="/WEB-INF/views/common/product/_sidebar.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/common/web/_footer.jsp" />
+    </definition>
+
+    <!--Base Checkout-->
+    <definition name="base.checkout" template="/WEB-INF/views/common/checkout/classic.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="body" value="" />
+    </definition>
+
+    <!--Base Account-->
+    <definition name="base.account" template="/WEB-INF/views/common/account/classic.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/common/web/_header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/common/web/_menu.jsp" />
+        <put-attribute name="sidebar" value="/WEB-INF/views/common/account/_sidebar.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/common/web/_footer.jsp" />
+    </definition>
+
+
+    <!--Admin // -->
+    <definition name="adminHomePage" extends="base.admin">
+        <put-attribute name="title" value="Quản trị website" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/home.jsp" />
+    </definition>
+
+    <definition name="productPage" extends="base.admin">
+        <put-attribute name="title" value="Quản lý sản phẩm" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/product.jsp" />
+    </definition>
+
+    <definition name="adminProductDetailPage" extends="base.admin">
+        <put-attribute name="title" value="Quản lý chi tiết sản phẩm" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/product-detail.jsp" />
+    </definition>
+
+    <definition name="adminAccountPage" extends="base.admin">
+        <put-attribute name="title" value="Quản lý tài khoản" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/account.jsp" />
+    </definition>
+
+    <definition name="adminBillPage" extends="base.admin">
+        <put-attribute name="title" value="Quản lý tài khoản" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/bill.jsp" />
+    </definition><!-- END ADMIN //-->
+
+    <!-- WEB //-->
+    <definition name="homePage" extends="base.web">
+        <put-attribute name="title" value="Trang chủ" />
+        <put-attribute name="body" value="/WEB-INF/views/web/home.jsp" />
+    </definition>
+
+    <definition name="loginPage" extends="base.web">
+        <put-attribute name="title" value="Đăng nhập tài khoản AIR-SPACE" />
+        <put-attribute name="body" value="/WEB-INF/views/web/login.jsp" />
+    </definition>
+
+    <definition name="registerPage" extends="base.web">
+        <put-attribute name="title" value="Đăng ký tài khoản AIR-SPACE" />
+        <put-attribute name="body" value="/WEB-INF/views/web/register.jsp" />
+    </definition>
+
+
+    <definition name="cartPage" extends="base.web">
+        <put-attribute name="title" value="Giỏ hàng của bạn" />
+        <put-attribute name="body" value="/WEB-INF/views/web/cart.jsp" />
+    </definition>
+
+    <definition name="productDetailPage" extends="base.product">
+        <put-attribute name="title" value="Chi tiết sản phẩm" />
+        <put-attribute name="body" value="/WEB-INF/views/web/detail-product.jsp" />
+    </definition>
+
+    <definition name="collectionsPage" extends="base.product">
+        <put-attribute name="title" value="Danh sách sản phẩm" />
+        <put-attribute name="body" value="/WEB-INF/views/web/collections.jsp" />
+    </definition>
+    <!-- End WEB //-->
+
+    <!-- CheckOut Start-->
+    <definition name="checkoutPage" extends="base.checkout">
+        <put-attribute name="title" value="Đặt hàng" />
+        <put-attribute name="body" value="/WEB-INF/views/web/checkout.jsp" />
+    </definition>
+    <!-- CheckOut End-->
+
+    <!-- Account Start-->
+    <definition name="accountPage" extends="base.account">
+        <put-attribute name="title" value="Tài khoản của bạn" />
+        <put-attribute name="body" value="/WEB-INF/views/account/account.jsp" />
+    </definition>
+
+    <definition name="changePasswordPage" extends="base.account">
+        <put-attribute name="title" value="Tài khoản của bạn" />
+        <put-attribute name="body" value="/WEB-INF/views/account/change-password.jsp" />
+    </definition>
+    <!-- Account End -->
+
+
+</tiles-definitions>

@@ -24,6 +24,24 @@ public class Users implements Serializable {
     @OneToMany(mappedBy = "user")
     private List<Bills> billsList;
 
+    public Users() {
+    }
+
+    public Users(String name, String email, String password, int status) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.status = status;
+    }
+
+    public Users(int id, String name, String email, String password, int status) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }

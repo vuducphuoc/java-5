@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parameter Registration Test">
+    <test name="Login-01">
+        <parameter name="email" value=""/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-02">
+        <parameter name="email" value="vuducphuoc"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-03">
+        <parameter name="email" value="vuducphuoc@gmail.com"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-04">
+        <parameter name="email" value="VUDUCPHUOC@GMAIL.COM"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-05">
+        <parameter name="email" value="vũđứcphước@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-06">
+        <parameter name="email" value="VŨĐỨCPHƯỚC@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-07">
+        <parameter name="email" value="vuduc%phuoc@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-08">
+        <parameter name="password" value="phuocvd"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-09">
+        <parameter name="password" value="PHUOCVD"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-10">
+        <parameter name="password" value="phướcvd"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-11">
+        <parameter name="password" value="PHƯỚCVD"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="Login-12">
+        <parameter name="password" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="Login-13">
+        <parameter name="password" value="123456789A!"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="Login-14">
+        <parameter name="password" value="12345"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="Login-15">
+        <parameter name="password" value="1234567"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="Login-16">
+        <parameter name="password" value="1234567899999999999999999999999999999999999999999999999999999"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-1">
+        <parameter name="email" value="vuducphuoc@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="url" value="http://localhost:8080/vn.airspace.com/login"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="All-2">
+        <parameter name="email" value="phuocvdph06996@fpt.edu.vn"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="url" value="http://localhost:8080/vn.airspace.com/admin/home"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="All-3">
+        <parameter name="email" value="vuducphuoc"/>
+        <parameter name="password" value=""/>
+        <parameter name="url" value="http://localhost:8080/vn.airspace.com/login"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+    <test name="All-4">
+        <parameter name="email" value="vuducphuoc"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="url" value="http://localhost:8080/vn.airspace.com/login"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Login.Login_Test"/>
+        </classes>
+    </test>
+
+
+</suite>

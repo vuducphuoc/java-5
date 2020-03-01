@@ -11,8 +11,8 @@ public class UserDao {
     @Autowired
     private UserRepository userRepository;
 
-    public void save(Users user) {
-        userRepository.save(user);
+    public Users save(Users user) {
+        return userRepository.save(user);
     }
 
     public Users findById(Integer id) {

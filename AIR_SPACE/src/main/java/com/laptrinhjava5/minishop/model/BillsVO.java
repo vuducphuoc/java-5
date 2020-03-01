@@ -2,19 +2,33 @@ package com.laptrinhjava5.minishop.model;
 
 public class BillsVO {
 
-    private int id;
+    private Integer id;
     private String address;
     private String phone;
     private String notes;
     private int total;
+    private int status;
 
     private UserVO user;
 
-    public int getId() {
+    public BillsVO() {
+    }
+
+    public BillsVO(Integer id, String address, String phone, String notes, int total, int status, UserVO user) {
+        this.id = id;
+        this.address = address;
+        this.phone = phone;
+        this.notes = notes;
+        this.total = total;
+        this.status = status;
+        this.user = user;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -56,5 +70,13 @@ public class BillsVO {
 
     public void setUser(UserVO user) {
         this.user = user;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }

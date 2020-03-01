@@ -15,6 +15,12 @@ public class UserVO {
     public UserVO() {
     }
 
+    public UserVO(int id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
     public UserVO(int id, String name, String email, String password, int status, Integer[] roles) {
         this.id = id;
         this.name = name;

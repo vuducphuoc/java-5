@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parameter Registration Test">
+    <test name="SignUp-01">
+        <parameter name="name" value=""/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-02">
+        <parameter name="name" value="!!@@ Vu Duc Phuoc"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-03">
+        <parameter name="name" value="     "/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-04">
+        <parameter name="name" value="V"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-05">
+        <parameter name="name" value="Vu"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-06">
+        <parameter name="name" value="
+                nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+            "/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-07">
+        <parameter name="name" value="nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="name" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-08">
+        <parameter name="email" value=""/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-09">
+        <parameter name="email" value="@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-10">
+        <parameter name="email" value="a@gmail.com"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-11">
+        <parameter name="email" value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-12">
+        <parameter name="email" value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-13">
+        <parameter name="email" value="vuducphuoc"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-14">
+        <parameter name="email" value="vuducphuoc@gmail.com"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-15">
+        <parameter name="email" value="VUDUCPHUOC@GMAIL.COM"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-16">
+        <parameter name="email" value="vũđứcphước@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-17">
+        <parameter name="email" value="VŨĐỨCPHƯỚC@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-18">
+        <parameter name="email" value="vuduc%phuoc@gmail.com"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="email" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-19">
+        <parameter name="password" value=""/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-20">
+        <parameter name="password" value="phuocvd"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-21">
+        <parameter name="password" value="PHUOCVD"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-22">
+        <parameter name="password" value="phướcvd"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-23">
+        <parameter name="password" value="PHƯỚCVD"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-24">
+        <parameter name="password" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-25">
+        <parameter name="password" value="123456789A!"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-26">
+        <parameter name="password" value="12345"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-27">
+        <parameter name="password" value="1234567"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-28">
+        <parameter name="password" value="1234567899999999999999999999999999999999999999999999999999999"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="password" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-29">
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="repassword" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-30">
+        <parameter name="password" value="phuocvd"/>
+        <parameter name="repassword" value="phuocvdph"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="repassword" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="SignUp-31">
+        <parameter name="password" value="phuocvd"/>
+        <parameter name="repassword" value="phuocvd"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="repassword" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-01">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-02">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-03">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-04">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-05">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-06">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-07">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-08">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-09">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-10">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-11">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-12">
+        <parameter name="name" value=""/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-13">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-14">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-15">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-16">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-17">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="true"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-18">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-19">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-20">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-21">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value=""/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-22">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value=""/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-23">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+
+    <test name="All-24">
+        <parameter name="name" value="Vu Duc Phuoc"/>
+        <parameter name="email" value="vuducphuoc.pi"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="repassword" value="123456789"/>
+        <parameter name="visible" value="false"/>
+
+        <groups>
+            <run>
+                <include name="all" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Selenium_Test.Registration.Registration_Test"/>
+        </classes>
+    </test>
+</suite>
