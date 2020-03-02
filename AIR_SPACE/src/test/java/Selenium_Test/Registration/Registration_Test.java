@@ -47,7 +47,7 @@ public class Registration_Test {
 
     @Parameters({"name", "visible"})
     @Test(groups = "name")
-    public void Test_Name(String name, String visible) {
+    public void Test_Name(String name, boolean visible) {
         txtName.sendKeys(name);
         btnSignUp.click();
 
@@ -58,7 +58,7 @@ public class Registration_Test {
 
     @Parameters({"email", "visible"})
     @Test(groups = "email")
-    public void Test_Email(String email, String visible) {
+    public void Test_Email(String email, boolean visible) {
         txtEmail.sendKeys(email);
         btnSignUp.click();
 
@@ -69,7 +69,7 @@ public class Registration_Test {
 
     @Parameters({"password", "visible"})
     @Test(groups = "password")
-    public void Test_Password(String password, String visible) {
+    public void Test_Password(String password, boolean visible) {
         pwfPassword.sendKeys(password);
         btnSignUp.click();
 
@@ -80,7 +80,7 @@ public class Registration_Test {
 
     @Parameters({"password", "repassword", "visible"})
     @Test(groups = "repassword")
-    public void Test_RePassword(String password, String repassword, String visible) {
+    public void Test_RePassword(String password, String repassword, boolean visible) {
         pwfPassword.sendKeys(password);
         pwfRe_Password.sendKeys(repassword);
         btnSignUp.click();
@@ -92,7 +92,7 @@ public class Registration_Test {
 
     @Parameters({"name", "email", "password", "repassword", "visible"})
     @Test(groups = "all")
-    public void Test_All(String name, String email, String password, String repassword, String visible) {
+    public void Test_All(String name, String email, String password, String repassword, boolean visible) {
         txtName.sendKeys(name);
         txtEmail.sendKeys(email);
         pwfPassword.sendKeys(password);

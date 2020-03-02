@@ -2,7 +2,7 @@
 <suite name="main_test" >
 
     <suite-files>
-        <suite-file path="Login/login_test.xml"/>
+<!--        <suite-file path="Login/login_test.xml"/>-->
         <suite-file path="Registration/registration_test.xml"/>
     </suite-files>
 
