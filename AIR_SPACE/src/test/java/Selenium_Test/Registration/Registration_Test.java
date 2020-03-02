@@ -20,7 +20,7 @@ public class Registration_Test {
     private WebElement pwfPassword;
     private WebElement pwfRe_Password;
 
-    @BeforeTest(groups = {"name", "email", "password", "repassword"})
+    @BeforeTest(groups = {"all", "name", "email", "password", "repassword"})
     public void launchBrowser() {
         System.out.println("Launch chrome browser");
         System.setProperty("webdriver.chrome.driver", Contant.CHROME_DRIVER);
@@ -34,7 +34,7 @@ public class Registration_Test {
         btnSignUp = webDriver.findElement(By.id("btn-register"));
     }
 
-    @AfterTest(groups = {"name", "email", "password", "repassword"})
+    @AfterTest(groups = {"all", "name", "email", "password", "repassword"})
     public void closeBrowser() {
         System.out.println("Close chrome browser");
         webDriver.close();
